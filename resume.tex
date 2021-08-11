@@ -1,0 +1,90 @@
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{darkmagenta}{RGB}{139, 0, 139}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=darkmagenta
+    }
+
+\name{Jack Oliver}
+\address{ Clayton VIC 3168 \\ Melbourne, Australia }
+\address{ jackoli3@me.com \\ \href{http://www.github.com/blademaw}{github.com/blademaw}}
+
+\def\nameskip{\bigskip}
+\def\sectionskip{\medskip}
+
+\begin{document}
+
+  \begin{rSection}{Education}
+    {\bf Monash University} $\cdot$ Melbourne, Australia \hfill {\em August 2019 – Present} \\ 
+    { Bachelor of Computer Science, with specialisation in Data Science } \smallskip \\
+    Weighted Average Mark: 85.27 \\
+    Overall GPA: 3.88 \\
+    
+    {\bf ESF Island School} $\cdot$ Hong Kong \hfill {\em 2012 – 2019} \\ 
+    {International Baccalaureate Diploma, Chairman's Award for Excellence} \smallskip \\
+    Graduating Score: 42/45 IB Points
+  \end{rSection}
+  
+  \begin{rSection}{Experience}
+  
+    \begin{rSubsection}{SensiLab}{June – July 2021}{Student Research Assistant}{Melbourne, Australia}
+    \item Designed and implemented multiple visualisations of an AI-based music system in Java using Processing and Open Sound Control
+    \item Critically evaluated visualisations, incorporated client feedback and used NVivo software to refine solutions
+    \item Collaborated with a team of researchers to expand Markov model to conform to explainable AI principles
+    \end{rSubsection}
+  
+    \begin{rSubsection}{English Schools Foundation, Hong Kong}{August 2020 – February 2021}{Educational Assistant, Part-time}{Hong Kong}
+    \item Supervised and taught Year 6 class, via Zoom distance-learning and in-person classes alongside principal teacher
+    \item Administered managerial tasks via Google suite \& organized collaborative documents for colleagues
+    \end{rSubsection}
+
+    \begin{rSubsection}{Crossroads Foundation, Hong Kong}{July 2020}{Distributions Volunteer}{Hong Kong}
+    \item Assisted in supervision of customer orders in the Hong Kong distribution department to aid underprivileged Hong Kong residents through donation of goods
+     \end{rSubsection}
+  
+  \end{rSection}
+  
+   \begin{rSection}{Achievements}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+      Monash University, & $\sbullet[.6]$ Faculty of IT Winter Vacation Research Scholarship Recipient \\
+      	{    } {\normalfont Australia} & $\sbullet[.6]$ Two Letters of Commendation for Academic Performance  \\
+      English Schools Foundation, & $\sbullet[.6]$ Chairman's Award for Excellence \\
+      	{    } {\normalfont Hong Kong} & $\sbullet[.6]$ Spanish \& Computer Science SL Senior Awards Recipient
+    \end{tabular}
+  \end{rSection}
+  
+  \begin{rSection}{Skills}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+      Programming Languages & Python 3, R for data science. Experience with Java, database\\
+      	& {    } management with SQL, web database interface languages and \\
+      	& {    } integration (HTML, CSS, JavaScript, \& PHP) \\
+      	
+      Suites \& Modules & Experience with Anaconda suite for data science, Python libraries \\
+      	&   {    }  {\em Matplotlib, pandas, SciPy} \& {\em NumPy} \\
+      	
+      General & Native English speaker, Australian \& U.S. citizen, permanent \\
+      	&   {    }  Hong Kong resident
+    \end{tabular}
+  \end{rSection}
+  
+  \begin{rSection}{Projects}
+  
+    \begin{rSubsectionProject}{Pysweeper}{(November 2019)}{\hyperlink{https://github.com/blademaw/pysweeper}{github.com/blademaw/pysweeper}}
+    \item Designed and developed a ground-up Python 3 implementation of grid text-based Minesweeper
+    \item Wrote custom algorithms for board generation, square-revealing pathfinding, and win condition verification
+    \end{rSubsectionProject}
+
+    \begin{rSubsectionProject}{HKO Weather Data Scraper}{(July 2018)}{}
+    \item Used Python 3 library {\em Beautiful Soup} with the Selenium Python API to create a web scraper to retrieve daily weather forecasts from the Hong Kong Observatory website
+    \item Filtered and processed scraped data to display in Unix shell formatted as a prompt
+    \end{rSubsectionProject}
+  
+  \end{rSection}
+
+\end{document}
